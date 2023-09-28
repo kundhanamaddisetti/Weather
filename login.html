@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+              .parent{
+        background-color: black;
+        width: 250px;
+        height: 300px;
+        border-radius: 40px;
+        border: 5px solid black;
+        padding: 9px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+        #f1{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+        }
+        .u{
+        border-radius: 10px;
+        } 
+    </style>
+</head>
+<body>
+    <form action="loginSubmit" method="post">
+        <label for="username">User Name :</label>
+        <input type="text" name="username" id="username"><br>
+        
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password"><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
